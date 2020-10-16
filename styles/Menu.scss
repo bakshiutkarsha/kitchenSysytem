@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+.menuCntr{
+    padding: 5%;
+    text-align: center;
+    .head{
+        text-align: center;
+        font-size: 28px;
+        padding-bottom: 20px;
+        .barcodeButton{
+            margin-top: 20px;
+            span{
+                background-color: #63ad9f;
+                color: #fff;
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 2px;
+                cursor: pointer;
+               
+            }
+        }
+    }
+    .eachItem{
+        display: inline-flex;
+        width: 350px;
+        margin: 0 5px 30px 20px;
+        flex-direction: column;
+        text-align: left;
+        
+        .summary{
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 100;
+            opacity: 0.6;
+        }
+        .itemName{
+            text-transform: capitalize;
+            font-size: 18px;
+            padding: 10px 0;
+        }
+        .imgCntr{
+            img{
+                width: 350px;
+                height: 200px;
+                object-fit: cover;
+            }
+            
+        }
+    }
+   
+}
