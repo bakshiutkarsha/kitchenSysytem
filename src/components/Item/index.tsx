@@ -5,7 +5,7 @@ import { MenuConsumer } from '../../context/MenuContext';
 
 const MenuItems: React.FC = () => {
   return <MenuConsumer>
-     {({menuData}) => (
+     {({menuData}: any) => (
         menuData.map(item => {
           return <div className={MenuStyles.eachItem} key={item.id}>
             <div className={MenuStyles.imgCntr}><img src={item.side_photo}/></div>

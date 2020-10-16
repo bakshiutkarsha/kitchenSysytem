@@ -20,7 +20,7 @@ const Barcodes: React.FC = () => {
     }, [])
 
     return <MenuConsumer>
-        {({menuData}) => (
+        {({menuData}: any) => (
             menuData.map(item => {
                 return <div className={BarcodeStyles.eachBarcodeCntr} key={item.id}>
                     <div className={BarcodeStyles.leftside}>
