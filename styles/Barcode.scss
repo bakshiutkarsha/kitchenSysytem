@@ -5,6 +5,26 @@
     top: 5%;
     left: 50%;
     transform: translate(-50%, 0%);
+    .barcodeButton{
+        margin-top: 20px;
+        span{
+            background-color: #63ad9f;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 2px;
+            cursor: pointer;
+           
+        }
+        .loader{
+            width: 20px;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+    }
+    .urlCntr{
+        padding: 20px 0;
+    }
 }
 .eachBarcodeCntr{
     width: 566px;
