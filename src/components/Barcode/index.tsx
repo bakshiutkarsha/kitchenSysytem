@@ -8,7 +8,7 @@ const Barcodes: React.FC = () => {
     const [barcodes, setBarcodes] = React.useState();
 
     const getBarcodes = async() => {
-        const res = await fetch('https://server.bakshiutkarsha.vercel.app/barcodes');
+        const res = await fetch('http://localhost:5000/barcodes');
         return res.json();
     }
     React.useEffect(() => {
