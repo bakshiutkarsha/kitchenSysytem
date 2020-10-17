@@ -13,7 +13,7 @@ const BarcodePage: React.FC <any>= () => {
 
   const getPdfLink = async() => {
       setLoader(true);
-      const res = await fetch('http://localhost:5000/barcodes.pdf');
+      const res = await fetch('https://server.bakshiutkarsha.vercel.app/barcodes.pdf');
       serPdfLink(await res.json());
       setLoader(false)
   }
